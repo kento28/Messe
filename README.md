@@ -20,5 +20,3 @@
 | text          | text       | null: false                    |
 
 - belongs_to :user
-
-
