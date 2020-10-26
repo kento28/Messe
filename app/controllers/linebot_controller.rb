@@ -1,2 +1,3 @@
 class LinebotController < ApplicationController
+  
 end
