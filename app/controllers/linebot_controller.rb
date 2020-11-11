@@ -3,6 +3,5 @@ class LinebotController < ApplicationController
   def callback
 
   end
-  case event
 
 end
