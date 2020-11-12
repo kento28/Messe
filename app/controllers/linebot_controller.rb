@@ -3,5 +3,5 @@ class LinebotController < ApplicationController
   def callback
 
   end
-
+  events = client.parse_events_from
 end
