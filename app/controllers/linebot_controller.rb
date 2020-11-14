@@ -5,4 +5,7 @@ class LinebotController < ApplicationController
   end
   events = client.parse_events_from
   events.each 
+  def client
+
+  end
 end
