@@ -6,7 +6,8 @@ class LinebotController < ApplicationController
       error 400 do 'Bad Request' 
       end
     when Line::Bot::Event::Message
-      
+      case event.type
+        
     end
   end
   
