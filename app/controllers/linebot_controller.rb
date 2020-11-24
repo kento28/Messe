@@ -7,7 +7,7 @@ class LinebotController < ApplicationController
       end
     when Line::Bot::Event::Message
       case event.type
-        
+       when Line::Bot::Event::Message
     end
   end
   
