@@ -8,6 +8,8 @@ class LinebotController < ApplicationController
     when Line::Bot::Event::Message
       case event.type
        when Line::Bot::Event::Message
+        seed1 = select_word
+        seed2 = select_word
     end
   end
   
