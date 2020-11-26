@@ -11,7 +11,7 @@ class LinebotController < ApplicationController
         seed1 = select_word
         seed2 = select_word
         while seed1 == seed2
-
+          seed2 = select_word
         end
     end
   end
