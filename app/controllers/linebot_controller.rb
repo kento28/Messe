@@ -10,6 +10,9 @@ class LinebotController < ApplicationController
        when Line::Bot::Event::Message
         seed1 = select_word
         seed2 = select_word
+        while seed1 == seed2
+
+        end
     end
   end
   
