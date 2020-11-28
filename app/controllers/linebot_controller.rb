@@ -14,7 +14,7 @@ class LinebotController < ApplicationController
           seed2 = select_word
         end
         message = [{
-          type:
+          type: 'text'
         }]
     end
   end
