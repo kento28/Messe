@@ -13,6 +13,7 @@ class LinebotController < ApplicationController
         while seed1 == seed2
           seed2 = select_word
         end
+        message = []
     end
   end
   
