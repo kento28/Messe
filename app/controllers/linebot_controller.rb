@@ -15,6 +15,7 @@ class LinebotController < ApplicationController
         end
         message = [{
           type: 'text'
+        },{
         }]
     end
   end
