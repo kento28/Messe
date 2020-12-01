@@ -17,6 +17,7 @@ class LinebotController < ApplicationController
           type: 'text'
           text: ""
         },{
+          type: 
         }]
     end
   end
