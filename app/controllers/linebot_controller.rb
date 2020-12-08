@@ -18,8 +18,7 @@ class LinebotController < ApplicationController
           text: ""
         },{
           type: 'text',
-          text:  
-          text: "#{seed1} × #{seed2} !!"
+          text:  text: "#{seed1} × #{seed2} !!"
         }]
     end
   end
