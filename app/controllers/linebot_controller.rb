@@ -15,10 +15,11 @@ class LinebotController < ApplicationController
         end
         message = [{
           type: 'text'
-          text: "テスト"
+          text: ""
         },{
           type: 'text',
-          text:  text: "#{seed1} × #{seed2} !!"
+          text:  
+          text: "#{seed1} × #{seed2} !!"
         }]
     end
   end
