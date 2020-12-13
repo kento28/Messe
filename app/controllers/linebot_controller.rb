@@ -20,7 +20,7 @@ class LinebotController < ApplicationController
           type: 'text',
           text: "#{seed1} × #{seed2} !!"
         }]
-        client.reply_message()
+        client.reply_message(message)
     end
   end
   private
