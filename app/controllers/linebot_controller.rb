@@ -24,4 +24,7 @@ class LinebotController < ApplicationController
     end
   end
   private
+  def client
+    
+  end
 end
