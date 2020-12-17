@@ -25,6 +25,6 @@ class LinebotController < ApplicationController
   end
   private
   def client
-    
+    @client ||= Line::Bot::Client.new { |config|
   end
 end
