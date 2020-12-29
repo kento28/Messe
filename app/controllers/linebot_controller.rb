@@ -32,5 +32,6 @@ class LinebotController < ApplicationController
   end
   def select_word
     seeds = ["１", "２", "３", "４"]
+    seeds.sample
   end
 end
