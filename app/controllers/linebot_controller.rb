@@ -23,6 +23,9 @@ class LinebotController < ApplicationController
         client.reply_message(event['replyToken'], message)
     end
   end
+  }
+  head :ok
+  end
   private
   def client
     @client ||= Line::Bot::Client.new { |config|
